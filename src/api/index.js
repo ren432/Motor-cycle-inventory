@@ -1,5 +1,5 @@
 import { request } from './client.js';
-import { mockApi } from './mockDb.js';
+import { mockApi } from "./mockDB.js";
 
 export const USE_MOCK = import.meta.env.VITE_USE_MOCK !== 'false';
 
